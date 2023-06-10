@@ -17,8 +17,8 @@ public class activity2 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-    public void goToubung(View view) {
-        Intent intent = new Intent(this, tableubung.class);
+    public void goToActivity3(View view) {
+        Intent intent = new Intent(this, activity3.class);
         startActivity(intent);
     }
 }

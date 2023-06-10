@@ -13,8 +13,5 @@ public class tableubung extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tableubung);
     }
-    public void goTogame1(View view) {
-        Intent intent = new Intent(this, game1.class);
-        startActivity(intent);
-    }
+
 }
