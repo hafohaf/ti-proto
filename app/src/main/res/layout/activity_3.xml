@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/img"
-    android:onClick="GoTogame"
     tools:context=".activity3">
 
     <ImageButton
@@ -56,7 +55,7 @@
         android:layout_marginBottom="112dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitXY"
-        android:onClick="goTogame1"
+        android:onClick="goToSpiel1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.106"
@@ -71,7 +70,7 @@
         android:layout_height="323dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitXY"
-        android:onClick="goTogame1"
+        android:onClick="goToSpiel1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.072"

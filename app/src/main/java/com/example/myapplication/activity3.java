@@ -13,8 +13,8 @@ public class activity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
     }
-    public void goTogame1(View view) {
-        Intent intent = new Intent(this, game1.class);
+    public void goToSpiel1(View view) {
+        Intent intent = new Intent(this, spiel1.class);
         startActivity(intent);
     }
 }

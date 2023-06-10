@@ -13,10 +13,6 @@ public class activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
     }
-    public void goTomain(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
     public void goToActivity3(View view) {
         Intent intent = new Intent(this, activity3.class);
         startActivity(intent);
